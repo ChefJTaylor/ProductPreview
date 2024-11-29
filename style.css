@@ -9,7 +9,6 @@ body {
 }
 
 .background {
-    padding: 3em 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +80,7 @@ button:hover {
 
 .background {
     background-color: hsl(30, 38%, 92%);
-    padding: 3em 0;
+    padding: 15em 0;
     
 }
 
