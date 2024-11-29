@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.background {
+    padding: 3em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfume, p {
+    font-family: Montserrat, serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    
+} 
+
+.perfume {
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: .75rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-family: Fraunces, serif;
+    font-weight: 700;
+}
+
+.price, .retail-price {
+    display: inline-block;
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces, serif;
+    font-size: 2rem;
+}
+
+.retail-price {
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat, sans-serif;
+    padding: 0 0 1em 2em;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    width: 100%;
+    border-radius: .5rem;
+    color: hsl(0, 0%, 100%);
+    font-family: Montserrat, sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    padding: 1em 1em;
+    margin-bottom: 1em;
+}
+
+button:hover {
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
+}
+    
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+.background {
+    background-color: hsl(30, 38%, 92%);
+    padding: 3em 0;
+    
+}
+
+.rectangle {
+    background-color: hsl(0, 0%, 100%);
+    width: 40%;
+    margin: 0 auto;
+    border-radius: .75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfume-bottle-desktop {
+    width: 40%;
+    border-radius: 10px 0 0 10px;
+}
+
+.perfume-bottle-mobile {
+    display: none;
+}
+
+.rectangle-text {
+    padding: 1em;
+       
+}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .background {
+        background-color: hsl(30, 38%, 92%);
+        padding: 1.5em 0;
+    }
+
+    .rectangle {
+        background-color: hsl(0, 0%, 100%);
+        width: 90%;
+        margin: 0 auto;
+        border-radius: .75rem;
+        
+    }
+
+    .perfume-bottle-desktop {
+        display: none;
+    }
+
+    .perfume-bottle-mobile {
+        display: block;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .rectangle-text {
+        padding: 1.5em;
+    }
+
+    .price {
+        font-size: 2rem;
+    }
+}
+
+    
